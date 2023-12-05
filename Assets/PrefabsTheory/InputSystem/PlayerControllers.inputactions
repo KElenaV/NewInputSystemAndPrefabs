@@ -1,0 +1,52 @@
+{
+    "name": "PlayerControllers",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "129037b2-2921-4faa-9297-804d1704fcfe",
+            "actions": [
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "799cbb13-6611-4509-a4b3-2491a3dcdc9c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Explosion",
+                    "type": "Button",
+                    "id": "4331b1c4-145a-4220-9c75-51ca97d29fa5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5d5fd45c-d012-4b7b-8b55-f50841e6f6ab",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "de4a213f-873f-4bef-9863-d2008f8f87eb",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Explosion",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
